@@ -21,6 +21,8 @@ The project follows a structured end-to-end analytics workflow beginning with ra
 * Determine key pollutants driving air quality deterioration.
 * Build an end-to-end analytics solution using Python, SQL, and Power BI.
 
+![Executive Overview](images/dashboard.png)
+
 ---
 
 ## Analysis Highlights
@@ -30,6 +32,14 @@ The project follows a structured end-to-end analytics workflow beginning with ra
 Understanding the overall distribution of AQI values across Indian cities.
 
 ![AQI Distribution](images/aqi_distribution.png)
+
+---
+
+### Correlation Matrix
+
+Correlation analysis highlighting relationships between AQI and major air pollutants.
+
+![Coorelation Matrix](images/pollutant_correlation_matrix.png)
 
 ---
 
@@ -91,6 +101,11 @@ EDA    SQL      Power BI
 │   ├── 02_Temporal_and_Seasonal_Analysis.ipynb
 │   ├── 03_City_Intelligence.ipynb
 │   └── 04_Pollutant_Driver_Analysis.ipynb
+├── sql
+│   └── air_quality_analysis.sql
+│
+├── powerbi
+│   └── India_aqi_dashboard.pbix
 │
 └── README.md
 ```
@@ -192,9 +207,6 @@ Notebook:
 * Temporal analysis
 * City intelligence analysis
 * Pollutant driver analysis
-
-### In Progress
-
 * SQL analytics
 * Power BI dashboard development
 
@@ -234,8 +246,6 @@ Notebook:
 
 ## Future Enhancements
 
-* SQL-based analytical reporting
-* Interactive Power BI dashboards
 * Predictive AQI forecasting
 * Real-time AQI monitoring integration
 * Automated reporting workflows
@@ -246,7 +256,7 @@ Notebook:
 
 **Abhishek Sharma**
 
-Production & Industrial Engineering
+Production & Industrial Engineering | 
 Delhi Technological University (DTU)
 
 If you found this project interesting, feel free to explore the notebooks and follow the complete analysis workflow from raw data to actionable insights.
