@@ -39,7 +39,7 @@ FROM air_quality;
 
 ### Output
 
-![Total Records](../images/sql/total_records_output.png)
+![Total Records](/images/sql/total_records_output.png)
 
 ---
 
@@ -71,7 +71,7 @@ FROM air_quality;
 
 ### Output
 
-![Year Range](images/sql/year_range_output.png)
+![Year Range](/images/sql/year_range_output.png)
 
 ---
 
