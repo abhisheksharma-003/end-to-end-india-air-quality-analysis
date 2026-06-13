@@ -1,10 +1,22 @@
 # India Air Quality Analysis: AQI Trends, City Intelligence & Pollutant Drivers
 
-![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-green)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-orange)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-red)
-![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-purple)
+## Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![VS_Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
 
 ## Project Overview
 
@@ -197,36 +209,79 @@ Notebook:
 
 ---
 
-## Current Status
+## SQL Analysis
 
-### Completed
+The SQL component validates and extends Python-based findings through analytical queries and window functions.
 
-* Data preprocessing
-* Data quality assessment
-* Exploratory data analysis
-* Temporal analysis
-* City intelligence analysis
-* Pollutant driver analysis
-* SQL analytics
-* Power BI dashboard development
+Topics Covered:
 
-### Planned
+* Dataset Overview
+* City Ranking Analysis
+* AQI Trend Analysis
+* Seasonal Pollution Analysis
+* AQI Category Distribution
+* Pollutant Statistics
+* Rolling Average Analysis
+* LAG() and Window Function Analysis
 
-* Interactive dashboard publishing
-* Advanced analytics
-* AQI forecasting models
+SQL Documentation:
+
+[SQL Analysis Documentation](./sql)
+
+---
+
+## Power BI Dashboard
+
+The Power BI dashboard was developed to transform analytical findings into an interactive business intelligence solution.
+
+Dashboard Pages:
+
+### Executive Overview
+
+* AQI KPIs
+* Trend Analysis
+* Category Distribution
+
+### City Intelligence
+
+* Polluted vs Clean Cities
+* AQI Rankings
+* City Comparison
+
+### Pollutant & Seasonal Analysis
+
+* AQI Heatmap
+* Pollutant Relationships
+* Correlation Analysis
+
+Dashboard File:
+
+[India_AQI_Dashboard.pbix](./powerbi/India_aqi_dashboard.pbix)
+
+---
+
+## Key Findings
+
+* Average AQI decreased by approximately 44% between 2015 and 2020.
+* AQI during the COVID-19 period was approximately 32% lower than the pre-COVID average.
+* Winter emerged as the most polluted season.
+* July recorded the lowest average AQI levels.
+* Ahmedabad consistently ranked among the most polluted cities.
+* Aizawl recorded the cleanest air quality.
+* PM2.5 demonstrated the strongest relationship with AQI.
+* Strong seasonal pollution spikes were observed during winter months.
 
 ---
 
 ## Skills Demonstrated
 
-### Data Analysis
+### Data Analytics
 
 * Exploratory Data Analysis (EDA)
-* Data Cleaning & Preprocessing
 * Statistical Analysis
 * Correlation Analysis
 * Feature Engineering
+* Data Cleaning & Validation
 
 ### Python
 
@@ -235,20 +290,41 @@ Notebook:
 * Matplotlib
 * Seaborn
 
-### Business Intelligence
+### SQL
 
-* KPI Development
-* Trend Analysis
-* City-Level Intelligence
-* Environmental Analytics
+* Aggregations
+* CTEs
+* Window Functions
+* Ranking Functions
+* Time-Series Analysis
+
+### Power BI
+
+* DAX Measures
+* Interactive Dashboards
+* KPI Cards
+* Heatmaps
+* Drill-Down Analysis
 
 ---
 
-## Future Enhancements
+## Repository Links
 
-* Predictive AQI forecasting
-* Real-time AQI monitoring integration
-* Automated reporting workflows
+### Notebooks
+
+* [Data Preprocessing](/notebooks/00_Data_Preprocessing.ipynb)
+* [Data Quality & Understanding](/notebooks/01_Data_Quality_and_Understanding.ipynb)
+* [Temporal & Seasonal Analysis](/notebooks/02_Temporal_and_Seasonal_Analysis.ipynb)
+* [City Intelligence Analysis](/notebooks/03_City_Intelligence.ipynb)
+* [Pollutant Driver Analysis](/notebooks/04_Pollutant_Driver_Analysis.ipynb)
+
+### SQL
+
+* [SQL Documentation](/sql_analysis.md)
+
+### Dashboard
+
+* [Power BI Dashboard](/India_aqi_dashboard.pbix)
 
 ---
 
@@ -256,7 +332,6 @@ Notebook:
 
 **Abhishek Sharma**
 
-Production & Industrial Engineering | 
+Production & Industrial Engineering
 Delhi Technological University (DTU)
 
-If you found this project interesting, feel free to explore the notebooks and follow the complete analysis workflow from raw data to actionable insights.
