@@ -348,6 +348,6 @@ Dashboard File:
 
 **Abhishek Sharma**
 
-Production & Industrial Engineering
+Production & Industrial Engineering | 
 Delhi Technological University (DTU)
 
