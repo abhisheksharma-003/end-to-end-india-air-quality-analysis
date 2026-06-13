@@ -1,22 +1,23 @@
 # India Air Quality Analysis: AQI Trends, City Intelligence & Pollutant Drivers
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+### Languages & Analysis
 
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge\&logo=python\&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
 
-![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+### Libraries
 
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![VS_Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Pandas](https://img.shields.io/badge/PANDAS-150458?style=for-the-badge\&logo=pandas\&logoColor=white) ![NumPy](https://img.shields.io/badge/NUMPY-013243?style=for-the-badge\&logo=numpy\&logoColor=white) ![Matplotlib](https://img.shields.io/badge/MATPLOTLIB-11557C?style=for-the-badge) ![Seaborn](https://img.shields.io/badge/SEABORN-4C72B0?style=for-the-badge)
 
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
+### BI & Database
+
+![MySQL](https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white) ![Power%20BI](https://img.shields.io/badge/POWER_BI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black) ![Excel](https://img.shields.io/badge/MICROSOFT_EXCEL-217346?style=for-the-badge\&logo=microsoftexcel\&logoColor=white)
+
+### Development Tools
+
+![Jupyter](https://img.shields.io/badge/JUPYTER-F37626?style=for-the-badge\&logo=jupyter\&logoColor=white) ![VS%20Code](https://img.shields.io/badge/VS_CODE-007ACC?style=for-the-badge\&logo=visualstudiocode\&logoColor=white) ![Git](https://img.shields.io/badge/GIT-F05032?style=for-the-badge\&logo=git\&logoColor=white) ![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge\&logo=github\&logoColor=white)
+
 
 ## Project Overview
 
@@ -83,41 +84,56 @@ Analyzing the relationship between particulate matter concentration and AQI.
 
 ```text
 Raw CPCB Dataset (city_day.csv)
-        │
-        ▼
-Data Preprocessing
-        │
-        ▼
-cleaned_aqi.csv
-        │
- ┌──────┼──────────┐
- ▼      ▼          ▼
-EDA    SQL      Power BI
+            │
+            ▼
+Data Cleaning & Preprocessing
+            │
+            ▼
+      cleaned_aqi.csv
+            │
+    ┌───────┼────────┬────────┐
+    ▼       ▼        ▼        ▼
+  EDA      SQL    Power BI  Insights
+            │        │
+            └────┬───┘
+                 ▼
+        Interactive Dashboard
 ```
-
 ---
 
 ## Repository Structure
 
+`## Repository Structure
+
 ```text
 .
 ├── images
+│   ├── dashboard.png
 │   ├── aqi_distribution.png
 │   ├── month_year_heatmap.png
+│   ├── pollutant_correlation_matrix.png
 │   ├── top_polluted_cities.png
-│   └── aqi_pm25_scatter.png
+│   ├── aqi_pm25_scatter.png
+│   │
+│   └── sql
+│       ├── yearly_aqi_output.png
+│       └── yearly_hotspot_output.png
 │
 ├── notebooks
 │   ├── 00_Data_Preprocessing.ipynb
 │   ├── 01_Data_Quality_and_Understanding.ipynb
 │   ├── 02_Temporal_and_Seasonal_Analysis.ipynb
 │   ├── 03_City_Intelligence.ipynb
-│   └── 04_Pollutant_Driver_Analysis.ipynb
-├── sql
-│   └── air_quality_analysis.sql
+│   ├── 04_Pollutant_Driver_Analysis.ipynb
+│   └── 05_sql_setup.ipynb
+│  
 │
-├── powerbi
-│   └── India_aqi_dashboard.pbix
+├── city_day.csv
+├── cleaned_aqi.csv
+│
+├── India_aqi_dashboard.pbix
+│
+├── sql_analysis.md
 │
 └── README.md
 ```
