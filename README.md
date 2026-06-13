@@ -1,6 +1,6 @@
 # India Air Quality Analysis: AQI Trends, City Intelligence & Pollutant Drivers
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Languages & Analysis
 
