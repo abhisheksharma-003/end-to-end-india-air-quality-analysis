@@ -54,7 +54,7 @@ FROM air_quality;
 
 ### Output
 
-![Total Cities](../images/sql/total_cities_output.png)
+![Total Cities](images/sql/total_cities_output.png)
 
 ---
 
@@ -71,7 +71,7 @@ FROM air_quality;
 
 ### Output
 
-![Year Range](../images/sql/year_range_output.png)
+![Year Range](images/sql/year_range_output.png)
 
 ---
 
@@ -93,7 +93,7 @@ LIMIT 10;
 
 ### Output
 
-![Top Polluted Cities](../images/sql/top_polluted_cities_output.png)
+![Top Polluted Cities](images/sql/top_polluted_cities_output.png)
 
 ### Insight
 
@@ -117,7 +117,7 @@ LIMIT 10;
 
 ### Output
 
-![Top Cleanest Cities](../images/sql/top_cleanest_cities_output.png)
+![Top Cleanest Cities](images/sql/top_cleanest_cities_output.png)
 
 ### Insight
 
@@ -142,7 +142,7 @@ GROUP BY City;
 
 ### Output
 
-![City Ranking](../images/sql/city_ranking_output.png)
+![City Ranking](images/sql/city_ranking_output.png)
 
 ---
 
@@ -163,7 +163,7 @@ ORDER BY Year;
 
 ### Output
 
-![Yearly AQI Trend](../images/sql/yearly_aqi_output.png)
+![Yearly AQI Trend](images/sql/yearly_aqi_output.png)
 
 ### Insight
 
@@ -187,7 +187,7 @@ LIMIT 1;
 
 ### Output
 
-![Worst Year](../images/sql/worst_year_output.png)
+![Worst Year](images/sql/worst_year_output.png)
 
 ### Insight
 
@@ -210,7 +210,7 @@ ORDER BY Month;
 
 ### Output
 
-![Monthly AQI](../images/sql/monthly_aqi_output.png)
+![Monthly AQI](images/sql/monthly_aqi_output.png)
 
 ---
 
@@ -230,7 +230,7 @@ LIMIT 3;
 
 ### Output
 
-![Worst Months](../images/sql/top_polluted_months_output.png)
+![Worst Months](images/sql/top_polluted_months_output.png)
 
 ### Insight
 
@@ -255,7 +255,7 @@ ORDER BY total_days DESC;
 
 ### Output
 
-![AQI Distribution](../images/sql/aqi_bucket_distribution_output.png)
+![AQI Distribution](images/sql/aqi_bucket_distribution_output.png)
 
 ---
 
@@ -278,7 +278,7 @@ ORDER BY percentage DESC;
 
 ### Output
 
-![AQI Percentage Distribution](../images/sql/aqi_bucket_percentage_output.png)
+![AQI Percentage Distribution](images/sql/aqi_bucket_percentage_output.png)
 
 ### Insight
 
@@ -304,7 +304,7 @@ FROM air_quality;
 
 ### Output
 
-![Pollutant Concentration](../images/sql/pollutant_concentration_output.png)
+![Pollutant Concentration](images/sql/pollutant_concentration_output.png)
 
 ### Insight
 
@@ -335,7 +335,7 @@ FROM air_quality;
 
 ### Output
 
-![Rolling AQI](../images/sql/rolling_aqi_output.png)
+![Rolling AQI](images/sql/rolling_aqi_output.png)
 
 ---
 
@@ -360,7 +360,7 @@ FROM air_quality;
 
 ### Output
 
-![AQI Change Detection](../images/sql/lag_aqi_output.png)
+![AQI Change Detection](images/sql/lag_aqi_output.png)
 
 ---
 
@@ -389,7 +389,7 @@ WHERE avg_aqi >
 
 ### Output
 
-![Cities Above Average](../images/sql/cities_above_average_output.png)
+![Cities Above Average](images/sql/cities_above_average_output.png)
 
 ---
 
@@ -416,7 +416,7 @@ GROUP BY City, Year;
 
 ### Output
 
-![Hotspot Ranking](../images/sql/yearly_hotspot_output.png)
+![Hotspot Ranking](images/sql/yearly_hotspot_output.png)
 
 ---
 
@@ -449,7 +449,7 @@ FROM city_year;
 
 ### Output
 
-![Most Improved Cities](../images/sql/improved_cities_output.png)
+![Most Improved Cities](images/sql/improved_cities_output.png)
 
 ---
 
@@ -481,7 +481,7 @@ FROM city_year;
 
 ### Output
 
-![Most Deteriorated Cities](../images/sql/deteriorated_cities_output.png)
+![Most Deteriorated Cities](images/sql/deteriorated_cities_output.png)
 
 ---
 
@@ -505,7 +505,7 @@ ORDER BY avg_aqi DESC;
 
 ### Output
 
-![Seasonal Analysis](../images/sql/seasonal_analysis_output.png)
+![Seasonal Analysis](images/sql/seasonal_analysis_output.png)
 
 ### Insight
 
